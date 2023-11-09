@@ -4,7 +4,7 @@ generation:
   sdkClassName: a
   maintainOpenAPIOrder: true
   usageSnippets:
-    optionalPropertyRendering: withExample
+    optionalPropertyRendering: myExample
   baseServerURL: ""
   flattenGlobalSecurity: true
 go:
@@ -17,7 +17,7 @@ go:
       callbacks: models/callbacks
       errors: models/sdkerrors
       operations: models/operations
-      shared: models/components
+      shared: models/comp
       webhooks: models/webhooks
   inputModelSuffix: input
   maxMethodParams: 4
