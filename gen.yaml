@@ -5,7 +5,7 @@ generation:
   maintainOpenAPIOrder: true
   usageSnippets:
     optionalPropertyRendering: myExample
-  baseServerURL: "rewrw"
+  baseServerURL: rewrw
   flattenGlobalSecurity: true
 go:
   version: 0.0.1
