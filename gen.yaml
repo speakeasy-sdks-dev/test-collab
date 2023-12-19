@@ -5,6 +5,9 @@ generation:
   maintainOpenAPIOrder: true
   usageSnippets:
     optionalPropertyRendering: myExample
+  useClassNamesForArrayFields: true
+  fixes:
+    nameResolutionDec2023: false
   baseServerURL: rewrw
   flattenGlobalSecurity: true
 go:
